@@ -7,7 +7,7 @@ function Allorder() {
 
   useEffect(() => {
     axios
-      .get("https://swadfoodapp.herokuapp.com/allorder")
+      .get("https://swadapp.onrender.com/allorder")
       .then((res) => {
         setPosts(res.data);
       })

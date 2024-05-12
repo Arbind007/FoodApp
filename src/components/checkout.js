@@ -30,7 +30,7 @@ class Checkout extends Component {
       data.name = this.state.name;
       data.email = this.state.email;
       data.addess = this.state.address;
-      axios.post("https://swadfoodapp.herokuapp.com/getorders", data);
+      axios.post("https://swadapp.onrender.com/getorders", data);
       this.props.history.push("/");
     };
     return (
