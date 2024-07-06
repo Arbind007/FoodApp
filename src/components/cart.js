@@ -45,7 +45,7 @@ class Cart extends Component {
                 <h4>
                   <Link to="/cart">
                     <i
-                      class="fas fa-minus-circle"
+                      className="fas fa-minus-circle"
                       onClick={() => {
                         this.handleSubtractQuantity(item.id);
                       }}
@@ -54,7 +54,7 @@ class Cart extends Component {
                   &nbsp; Quantity: {item.quantity} &nbsp;
                   <Link to="/cart">
                     <i
-                      class="fas fa-plus-circle"
+                      className="fas fa-plus-circle"
                       onClick={() => {
                         this.handleAddQuantity(item.id);
                       }}
