@@ -24,7 +24,7 @@ function App() {
           <Route exact path="/" Component={home} />
           <Route path="/login/callback" element={<LoginCallback />} />
           <Route exact path="/cart" Component={cart} />
-          <Route exact path="/checkout" Component={checkout} />
+          <Route path="/checkout" Component={checkout} />
           <Route path="/allorders" Component={(props) => <Allorders {...props} allowedGroup={allowedGroup} />} />
           <Route path="/unauthorized" Component={Unauthorized} />
         </Routes>
